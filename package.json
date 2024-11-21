@@ -10,11 +10,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["github", "clone", "symlink", "repository"],
+  "keywords": [
+    "github",
+    "clone",
+    "symlink",
+    "repository"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "commander": "^11.0.0",
+    "inquirer": "^12.1.0",
     "simple-git": "^3.19.1"
   }
 }
