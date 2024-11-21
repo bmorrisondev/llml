@@ -1,0 +1,20 @@
+{
+  "name": "llml",
+  "version": "1.0.0",
+  "description": "CLI tool for cloning and symlinking GitHub repositories",
+  "main": "bin/index.js",
+  "bin": {
+    "llml": "./bin/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["github", "clone", "symlink", "repository"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "simple-git": "^3.19.1"
+  }
+}
